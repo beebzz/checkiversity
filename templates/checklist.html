@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title> {{title}} </title>
+  <link rel = "shortcut icon" href="/resources/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/resources/checklist.css">
+</head>
+<body id="body">
+  <div id="myDIV" class="header">
+    <button  class="button" id= "List_Btn"><a href = "/mylists">Return to Your Lists </a></li></button>
+      <button  class="button" id= "Home_Btn"><a href = "/">Return to Homepage </a></li></button>
+
+    <h2 id = 'title'>  {{title}}</h2>
+    <input type="text" id="myInput" placeholder="Add Item...">
+    <button id = "new_item" onclick="newElement();" class="addBtn">Add</button>
+  </div>
+  <div id="results"></div>
+  <ul id="myUL">
+  </ul>
+  <input type="hidden" id="key" value = "{{id}}">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src ="/resources/checklist.js"></script>
+</body>
+</html>

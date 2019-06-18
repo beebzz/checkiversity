@@ -1,0 +1,122 @@
+
+/* Changes all of the text */
+#parent{
+  /* flex make the box fit in the same line */
+  display: flex;
+  /* This makes all of the objects move to the center */
+   justify-content: center;
+   /* Moves the itmes /box to the center of the page */
+   align-items: center;
+   /*width: 600px;*/
+
+}
+.text {
+  font-family: Lucida Bright;
+  text-align: center;
+
+}
+
+.button{
+  margin: auto;
+  position:relative;
+ width: auto;
+ color: #ecf0f1;
+ text-decoration:none;
+ border-radius:5px;
+ border: solid 1px;
+ background: rgba(248,248,248,0.65);
+text-align:center;
+ color:black;
+ font-size:30px;
+ padding:16px 18px 14px;
+ -webkit-transition: all 0.1s;
+ -moz-transition: all 0.1s;
+ transition: all 0.1s;
+
+  /*border: none;
+  background-color: rgba(248,248,248,0.65);
+  font-family: Lucida Bright;
+ width: 200px;
+ font-size: 15px;
+ border-radius: 5px;*/
+}
+/* Removes the underline from all button with an ancor tag from Python main.py */
+.button a{
+  text-decoration: none;
+  color:black;
+  font-size: 30px;
+  text-align:center;
+
+}
+#sign_in_button{
+  margin-bottom: 17px;
+}
+
+
+body{
+  background-image: url("https://goo.gl/HQsWDF");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+  filter: blur();
+
+}
+
+
+
+#header {
+  text-align: center;
+}
+
+/*#sign_in_button{
+  margin-top: 100px;
+  display: inline;
+  width: 15%;
+   border: none;
+   color: rgba(255, 255, 250, 2);
+   padding: 15px 32px;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   border-radius:
+}
+#checklist_link{
+
+
+}*/
+
+ #title{
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  margin-bottom: 10px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+#slogan {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 10px;
+}
+
+#checklist_link {
+  margin-left: 17px;
+}
+
+/*.normal {
+  color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+}*/
+
+h2 {
+  color: white;
+  margin-top: 300px;
+}
+#spotify_link{
+  margin-top: 17px;
+}
+/*.text{
+  color:black;
+font-family: 'Abril Fatface', cursive;
+}*/

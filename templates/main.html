@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title> Main Page </title>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link rel = "shortcut icon" href="/resources/favicon.ico" type="image/x-icon">
+    <link rel = "stylesheet" href = "/resources/main.css">
+  </head>
+  <body>
+    <div>
+    <div id = 'header'>
+    <h1 class="text" id='title'> Checkiversity </h1>
+    <!-- <p> Helping you build the ultimate University checklist </p> -->
+    <p id = "slogan" class = "text"> Checklist generator to make sure you check yourself in college! </p>
+    <section id="parent">
+    <div><button class='button' class = "text" id = "sign_in_button"> {{greeting}} </button><div>
+    <!-- <div style = "border: 0px solid black"><button  class='normal' class='text' id = "checklist_link"> {{open_checklist}} </button>
+    <button class='normal' class='text' id = "checklist_link"> {{template_checklist}} </button></div> -->
+    <div style = "border: 0px solid black">
+    {% if open_checklist %}
+      <button class='button' class='text' id = "checklist_link">{{ open_checklist }} </button>
+    {% endif %}
+    {% if template_checklist %}
+      <button class='button' class='text' id = "template_link"> {{template_checklist}} </button></div>
+    {% endif %}
+    {% if template_checklist %}
+      <button class='button' class='text' id = "spotify_link"> {{spotify}} </button></div>
+    {% endif %}
+    <!-- {% if notes %}
+      <button class='button' class='text' id = "notes_link"> {{notes}} </button></div>
+    {% endif %} -->
+  </section>
+  <h2>Copyright &#9400; Bilal b., Israel Ali and Anna Levenberg 2017. All Rights Reserved.</h2>
+  </body>
+</html>
